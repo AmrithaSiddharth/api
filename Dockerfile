@@ -1,8 +1,5 @@
 FROM public.ecr.aws/docker/library/python:3.10-slim-buster
 
-ENV DB_USERNAME=default_username
-ENV DB_PASSWORD=default_passowrd
-ENV DB_HOST=default_host
 
 # Set the working directory to /app
 WORKDIR /app
