@@ -8,7 +8,7 @@ ENV DB_HOST=default_host
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-COPY /analytics/ /app
+#COPY /analytics/ /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install -r /app/requirements.txt
